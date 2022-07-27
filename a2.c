@@ -94,7 +94,7 @@ void selectionsort(int a[], int n){
         }
     }
     printf("Sorted array is: ");
-    printarray(a, n);
+    printarray(a, n); 
 }
 
 void insertionSort(int a[], int n) 
