@@ -11,7 +11,7 @@ int main(){
      printf("Enter the two no.s to perform the operation:");
      scanf("%d %d", &n1, &n2);
 
-    switch(choice){
+     switch(choice){
       case '+':
       printf("Addition of n1 and n2 is %d", n1+n2);\
       break;
