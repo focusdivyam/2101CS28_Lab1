@@ -8,8 +8,8 @@ int main(){
     printf("Enter +,-,*,/ to perform the required operation :\n");
     scanf("%c", &choice);
 
-    printf("Enter the two no.s to perform the operation:");
-    scanf("%d %d", &n1, &n2);
+     printf("Enter the two no.s to perform the operation:");
+     scanf("%d %d", &n1, &n2);
 
     switch(choice){
       case '+':
