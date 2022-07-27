@@ -27,7 +27,7 @@ swap(&a[i], &a[j]);
 } 
 swap(&a[i + 1], &a[highIndex]); 
 return (i + 1); 
-}
+ }
 
 void merge(int a[], int l, int m, int r) 
 { 
