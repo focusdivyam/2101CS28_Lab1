@@ -63,8 +63,7 @@ while (j < n2) {
 a[k] = R[j]; 
 j++; 
 k++; 
-} 
-}
+} }
 
 // Bubble sort method
 void bubblesort(int a[], int n){
