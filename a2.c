@@ -121,7 +121,6 @@ int pivot = partition(a, lowIndex, highIndex);
 quickSort(a, lowIndex, pivot - 1); 
 quickSort(a, pivot + 1, highIndex); 
 }
-
 }
 
 void mergeSort(int a[], int l, int r) 
