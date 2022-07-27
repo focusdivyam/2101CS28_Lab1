@@ -165,9 +165,9 @@ int main(){
        mergeSort(a, 0,n - 1);
        printf("Sorted array is: ");
        printarray(a, n);
-        break;
-
-    }
+         break; 
+    } 
+    
 
     return 0;
 }
