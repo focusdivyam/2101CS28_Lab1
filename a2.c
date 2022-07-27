@@ -130,8 +130,7 @@ int m = l+(r-l)/2;
 mergeSort(a, l, m); 
 mergeSort(a, m+1, r); 
 merge(a, l, m, r); 
-}
-
+ }
 } 
 
 int main(){
