@@ -105,7 +105,7 @@ for (i = 1; i < n; i++){
      while (j >= 0 && a[j] > element) { 
      a[j + 1] = a[j]; 
      j = j - 1; 
-     } 
+      } 
     a[j + 1] = element; 
 }
 printf("Sorted array is: ");
