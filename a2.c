@@ -78,6 +78,7 @@ void bubblesort(int a[], int n){
         }
     }
     printf("Sorted array is: ");
+    
     printarray(a, n);
      
 }
