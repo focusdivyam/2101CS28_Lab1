@@ -27,7 +27,7 @@ i++;
 swap(&a[i], &a[j]); 
 } 
 } 
-swap(&a[i + 1], &a[highIndex]); 
+swap(&a[i + 1], &a[highIndex]);
 return (i + 1); 
  }
 
@@ -109,9 +109,10 @@ for (i = 1; i < n; i++){
      while (j >= 0 && a[j] > element) { 
      a[j + 1] = a[j]; 
      j = j - 1; 
-      } 
+     } 
     a[j + 1] = element; 
 }
+
 printf("Sorted array is: ");
     printarray(a, n);
 }
