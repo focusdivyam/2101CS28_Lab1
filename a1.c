@@ -27,7 +27,7 @@ int main(){
       break;
 
       case '/':
-      printf("Division of n1 and n2 is %f", (n1/(float)n2));
+      printf("Division of n1 and n2 is %f", (n1/(float)n2)); 
       break;
     }
 return 0;
