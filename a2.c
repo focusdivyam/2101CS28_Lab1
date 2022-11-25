@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// swap the values of a and b.
+// pass by reference.
 void swap(int *a, int *b){
     int t=*a;
     *a = *b;
@@ -113,6 +115,7 @@ printf("Sorted array is: ");
     printarray(a, n);
 }
 
+// defining quick sort algo.
 void quickSort(int a[], int lowIndex, int highIndex) 
 { 
 if (lowIndex < highIndex) 
