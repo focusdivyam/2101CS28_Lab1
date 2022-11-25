@@ -29,6 +29,8 @@ swap(&a[i + 1], &a[highIndex]);
 return (i + 1); 
  }
 
+// Code for Merge sort
+// merge fun.
 void merge(int a[], int l, int m, int r) 
 { 
 int i, j, k; 
