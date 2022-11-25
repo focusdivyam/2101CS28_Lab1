@@ -155,17 +155,21 @@ int main(){
     case 1:
         bubblesort(a, n);
         break;
+            
     case 2:
         selectionsort(a,n);
         break;
+            
     case 3:
         insertionSort(a, n);
         break;
+            
     case 4:
         quickSort(a,0, n-1);
         printf("Sorted array is: ");
         printarray(a, n);
         break;
+            
     case 5:
        mergeSort(a, 0,n - 1);
        printf("Sorted array is: ");
